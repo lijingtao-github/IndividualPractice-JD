@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 4.51rem;
+}
+
+.page {
+    text-align: left;
+    background: #fff;
+    padding: 0 0.25rem 0.25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+    background: #fff;
+    font-size: 17px;
+    z-index: 999;
+    text-align: center;
+}
+
+.header .icon {
+    top: 10px;
+    background-image: url(../img/index6.png);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0;
+}
+
+
+.wrap {
+    margin-top: .2rem;
+    font-size: .16rem;
+}
+
+.img-wrap {
+    text-align: center;
+    margin-top: .2rem;
+}
+
+.msg-img {
+    width: .88rem;
+    height: .71rem;
+    background-image: url(../img/index11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.notice-text {
+    font-family: PingFang-SC-Medium;
+    font-size: .16rem;
+    color: #2e2d2d;
+    padding-top: .19rem;
+}
+
+.input-box {
+    position: relative;
+    height: .5rem;
+    margin-top: .2rem;
+}
+
+.input-container {
+    padding-right: 1.5rem;
+    height: .5rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: .1rem;
+    background: #fff;
+    border-bottom: .01rem solid #efefef;
+    box-sizing: border-box;
+}
+
+.acc-input {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: normal;
+    border-radius: 0;
+    border: 0;
+    font-size: .16rem;
+    outline: none;
+}
+
+.getMsg-btn {
+    background-color: rgba(226, 35, 30, .2);
+    color: #e2231a;
+    border: 0 solid rgba(226, 35, 30, .2);
+    font-size: .14rem;
+    width: 1.1rem;
+    height: .34rem;
+    line-height: .3rem;
+    border-radius: .18rem;
+    outline: 0;
+    top: .08rem;
+    right: 0;
+    position: absolute;
+    padding: 0;
+}
+
+
+.btn-next {
+    margin-top: .5rem;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    display: block;
+    background-color: #efefef;
+    border-radius: .25rem;
+    font-size: .16rem;
+    color: #fff;
+    background-image: linear-gradient(90deg, #fab3b3, #ffbcb3 73%, #ffcaba);
+    box-shadow: 0 .1rem 20px 0 rgba(255, 62, 62, .2);
+    text-align: center;
+    font-family: PingFangSC-Semibold;
+}
+
+.wrap .active{
+    background-image: linear-gradient(90deg,#f10000,#ff2000 73%,#ff4f18);
+}
+
+.question-box {
+    color: #999;
+    margin-top: .21rem;
+    font-size: .14rem;
+}
+
+.question-box a {
+    color: #3b7adb;
+}
+
+
+
+
+.dialog {
+    position: absolute;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+}
+
+.dialog-body {
+    position: absolute;
+    width: 2.8rem;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    margin-left: -1.4rem;
+    margin-top: -.92rem;
+    border-radius: .04rem;
+    box-sizing: border-box;
+}
+
+.dialog-des {
+    font-size: .16rem;
+    line-height: .2rem;
+    color: #333;
+    margin: .3rem .2rem;
+}
+
+.dialog-footer {
+    border-top: .01rem solid #d4d4d4;
+}
+
+.dialog-cancel {
+    width: 50%;
+    float: left;
+    border-radius: 0 0 0 .04rem;
+    background: #fff;
+    border: 0;
+    height: .4rem;
+    font-size: .12rem;
+    outline: none;
+}
+
+.dialog-sure {
+    width: 50%;
+    float: left;
+    border-radius: 0 0 .04rem 0;
+    background: #f23030;
+    border: 0;
+    height: .4rem;
+    color: #fff;
+    font-size: .12rem;
+    outline: none;
+}

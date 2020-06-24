@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 2.48rem;
+}
+
+.page {
+    text-align: left;
+    background: #fff;
+    padding: 0 0.25rem 0.25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+    background: #fff;
+    font-size: 17px;
+    z-index: 999;
+    text-align: center;
+}
+
+.header .icon {
+    top: 10px;
+    background-image: url(../img/index6.png);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0;
+}
+
+
+.wrap {
+    margin-top: .2rem;
+}
+
+.input-container {
+    height: .5rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: .1rem;
+    background: #fff;
+    border-bottom: .01rem solid #efefef;
+    box-sizing: border-box;
+}
+
+.area-box {
+    position: absolute;
+    width: .72rem;
+    height: .5rem;
+    top: 0;
+    left: 0;
+    line-height: .5rem;
+}
+
+.area-box .area_code {
+    font-family: PingFangSC-Semibold;
+    display: block;
+    text-align: center;
+    width: 0.5rem;
+    line-height: .5rem;
+    font-size: .16rem;
+    color: #000;
+}
+
+.area-box .area_icon {
+    position: absolute;
+    top: 0.22rem;
+    right: .08rem;
+    width: .14rem;
+    height: .06rem;
+    overflow: hidden;
+    background-image: url(../img/index7.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    margin-left: 0.06rem;
+}
+
+.acc-input {
+    display: block;
+    width: 100%;
+    padding-left: .7rem;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: normal;
+    border-radius: 0;
+    border: 0;
+    font-size: .16rem;
+    outline: none;
+}
+
+.wrap .btn {
+    margin-top: .5rem;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    display: block;
+    background-color: #efefef;
+    border-radius: .25rem;
+    font-size: .16rem;
+    color: #fff;
+    background-image: linear-gradient(90deg,#fab3b3,#ffbcb3 73%,#ffcaba);
+    box-shadow: 0 .1rem 20px 0 rgba(255, 62, 62, .2);
+    text-align: center;
+    font-family: PingFangSC-Semibold;
+}
+
+.wrap .active{
+    background-image: linear-gradient(90deg,#f10000,#ff2000 73%,#ff4f18);
+}
+
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .6);
+}
+
+.protocol-wrap {
+    width: 85%;
+    background: #fff;
+    border-radius: .1rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #2e2d2d;
+    transform: translate(-50%, -50%);
+}
+
+.mheader {
+    font-size: .16rem;
+    font-family: PingFangSC-Semibold;
+    text-align: center;
+    padding: .18rem 0 .13rem;
+}
+
+.content {
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    line-height: .22rem;
+    padding: 0 .25rem;
+    height: 1.98rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.content .important-tip {
+    font-family: PingFangSC-Semibold;
+    color: #000;
+    text-decoration: underline;
+}
+
+.content .link-tip {
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    line-height: .22rem;
+    color: #2e2d2d;
+}
+
+
+
+.footer {
+    margin-top: .09rem;
+    border-radius: .1rem;
+    box-shadow: 0 -.025rem .05rem 0 rgba(0, 0, 0, .1);
+}
+
+.protocol-notice {
+    padding: .09rem .25rem .14rem;
+    font-family: PingFangSC-Semibold;
+    font-size: .13rem;
+    line-height: .18rem;
+}
+
+.protocol-notice span a {
+    color: #3b7adb;
+    text-decoration: underline;
+    font-size: .13rem;
+    line-height: .18rem;
+}
+
+.btn-wrap {
+    color: #2e2d2d;
+    font-size: 0;
+}
+
+.protocol-btn {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: .15rem;
+    color: #2e2d2d;
+    text-align: center;
+    height: .45rem;
+    line-height: .45rem;
+    width: 50%;
+    border-top: 1px solid #eaeaea;
+}
+
+.agreement {
+    color: #fff;
+    background-image: linear-gradient(90deg, #f10000, #ff2000 73%, #ff4f18);
+    border-radius: 0 0 .1rem 0;
+}

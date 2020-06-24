@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.header {
+    width: 3.75rem;
+    height: 0.45rem;
+    position: relative;
+    background-color: #fff;
+}
+
+.jd-header-icon-back {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.44rem;
+}
+
+.jd-header-icon-back span {
+    display: block;
+    margin: 12px 0 0 10px;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url(../img/index14.png) no-repeat 50%;
+    background-position: 0 0;
+    background-size: contain;
+}
+
+.jd-header-new-title {
+    margin: 0 0.7rem;
+    height: 0.44rem;
+    font-size: 0.16rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.header_jdkey {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 44px;
+}
+
+.header_jdkey span {
+    display: block;
+    margin: 12px 12px 12px 10px;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: url(../img/index15.png) no-repeat 50%;
+    background-size: 20px;
+}
+
+
+
+.wx_wrap {
+    width: 3.75rem;
+    height: 4.23rem;
+    position: relative;
+}
+
+.accountArea {
+    width: 3.75rem;
+    height: 1.58rem;
+}
+
+.account_section_v2 {
+    background: #fff;
+    position: relative;
+    padding: 12px 10px 0;
+    margin-bottom: 15px;
+}
+
+.account_section_title {
+    display: flex;
+    box-pack: justify;
+    justify-content: space-between;
+    box-align: center;
+    align-items: center;
+}
+
+.account_section_title_left {
+    color: #333;
+    font-size: 16px;
+}
+
+.account_list {
+    position: relative;
+    margin: 0;
+    padding: 2px 0 15px;
+}
+
+.account_itemv2 {
+    background: #fff9f9;
+    height: 95px;
+    padding: 35px 15px 15px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.8em;
+}
+
+.bottom_left_decoration_points {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: 25px;
+    height: 15px;
+    background-image: url(../img/index17.png);
+    background-size: 25px 15px;
+}
+
+.top_right_decoration_points {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 27px;
+    height: 22px;
+    background-image: url(../img/index18.png);
+    background-size: 27px 22px;
+}
+
+.top_right_decoration_ring {
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    width: 13px;
+    height: 13px;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #ffa9a9;
+    opacity: .3;
+}
+
+.top_right_decoration_circle {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: -25px;
+    right: -23px;
+    border-radius: 100%;
+    background-color: #ffa9a9;
+    opacity: .3;
+}
+
+.current_account_tip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1px 10px;
+    background-color: #ffe4e4;
+    color: #e2231a;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.user_info {
+    display: flex;
+    box-align: center;
+    align-items: center;
+}
+
+.user_avator {
+    width: 0.45rem;
+    height: 0.45rem;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.user_detail .main_detail {
+    padding: 4px 0 1px;
+    margin-bottom: 1px;
+}
+
+.user_detail .user_name {
+    color: #333;
+    margin-right: 5px;
+}
+
+.user_detail .append_detail .user_pin {
+    color: #333;
+    margin-top: -2px;
+    opacity: .7;
+}
+
+
+
+
+.actionsArea {
+    width: 3.75rem;
+    height: 2.5rem;
+}
+
+.action_groups {
+    width: 3.75rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.account_manage {
+    position: relative;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.J_ping {
+    display: block;
+    position: relative;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    margin-left: 10px;
+    padding-right: 27px;
+    font-size: 16px;
+    color: #333;
+}
+
+.J_ping .text {
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+
+.J_ping::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background-size: 12px;
+    background-image: url(../img/index19.png);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.J_ping:nth-child(3)::before {
+    transform: scaleY(.5);
+    transform-origin: 50% 0;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    background-color: #e5e5e5;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+
+
+.msite_foot {
+    width: 3.75rem;
+    height: 0.3rem;
+    position: relative;
+}
+
+.footerNav {
+    display: flex;
+    margin: 10px 0 0;
+}
+
+.footerNav a {
+    display: block;
+    box-flex: 1;
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-left: 10px;
+    padding: 6px 0;
+    position: relative;
+}
+
+.footerNav a img {
+    width: 18px;
+    height: 18px;
+    padding-right: 3px;
+    display: inline-block;
+}
+
+
+
+.qq_footer {
+    margin: 0.25rem 0 0.75rem;
+}
+
+.jd_logo {
+    display: block;
+    width: 1rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    background: url(../img/index20.png) no-repeat;
+    background-size: 100%;
+}
